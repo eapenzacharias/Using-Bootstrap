@@ -60,4 +60,8 @@ body .content {
   background-color: #fff;
   max-width: 1310px;
 }
+
+body .main.content {
+  padding: 20px 30px 0 30px;
+}
 /*# sourceMappingURL=style.css.map */
