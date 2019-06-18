@@ -1,8 +1,9 @@
 # Using-Bootstrap
 
 Creating a look alike webpage of newsweek.com homepage.
+
 ###Created by Eapen Zacharias
-@eapenzacharias
+@@eapenzacharias
 
 ##Live Url
 
