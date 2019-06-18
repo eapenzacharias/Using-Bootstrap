@@ -2,10 +2,11 @@
 
 Creating a look alike webpage of newsweek.com homepage.
 
-###Created by Eapen Zacharias
-@@eapenzacharias
+## Created by Eapen Zacharias
 
-##Live Url
+[@eapenzacharias](https://github.com/eapenzacharias/)
 
-##Orginal Page URL
+## Live Url
+
+## Orginal Page URL
 https://www.newsweek.com/
