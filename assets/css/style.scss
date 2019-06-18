@@ -1,0 +1,13 @@
+$bodyFont: 'Raleway', sans-serif;
+$headFont: 'Roboto Condensed', sans-serif;
+
+body {
+    font: 15px $bodyFont;
+    font-weight: 400;
+}
+h2,
+h3,
+h4 {
+    font-family: $headFont;
+    font-weight: 700;
+}
