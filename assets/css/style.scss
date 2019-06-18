@@ -1,13 +1,55 @@
 $bodyFont: 'Raleway', sans-serif;
 $headFont: 'Roboto Condensed', sans-serif;
+$mainColor: #f72210;
 
 body {
+    background-color: #f4f5f6;
     font: 15px $bodyFont;
     font-weight: 400;
-}
-h2,
-h3,
-h4 {
-    font-family: $headFont;
-    font-weight: 700;
+    h2,
+    h3,
+    h4,
+    h3 > a,
+    h4 > a {
+        color: #000;
+        font-family: $headFont;
+        font-weight: 700;
+    }
+    h3 > a:hover,
+    h4 > a:hover {
+        color: #000;
+        text-decoration: underline;
+        text-decoration-color: $mainColor;
+    }
+    header {
+        margin-left: auto;
+        margin-right: auto;
+        nav {
+            background-color: #fff;
+            .navbar-nav {
+                height: 24px;
+                .nav-item {
+                    border-left: 1px solid #ababab;
+                    .nav-link {
+                        color: black;
+                        font-family: $headFont;
+                        font-size: 21px;
+                        font-weight: 700;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                    }
+                }
+                li:nth-child(1) {
+                    border: 0;
+                }
+            }
+        }
+        .top {
+            background-color: $mainColor;
+        }
+    }
+    .content {
+        background-color: #fff;
+        max-width: 1310px;;
+    }
 }
