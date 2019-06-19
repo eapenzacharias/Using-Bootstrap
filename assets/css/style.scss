@@ -6,6 +6,12 @@ body {
     background-color: #f4f5f6;
     font: 15px $bodyFont;
     font-weight: 400;
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 17px;
+    }
     h2,
     h3,
     h4,
@@ -54,5 +60,55 @@ body {
     }
     .main.content {
         padding: 20px 30px 0 30px;
+        img {
+            height: auto;
+            width:100%;
+        }
+        .block-title {
+            color: #818181;
+            font-family: $headFont;
+            font-size: 16px;
+            font-weight: 700;
+            padding-bottom: 11px;
+        }
+        .featured .latest-news:nth-child(2),
+        .featured .opinion:nth-child(2){
+            border-top: 0;
+            margin-top: 0;
+            padding-top: 5px;
+        }
+        .latest-news {
+            border-top: 1px solid #dadada;
+            max-height: 120px;
+            margin-top: 10px;
+            padding-top: 15px;   
+            h4 > a:hover {
+                color: #f72210;
+                text-decoration: none;
+            }
+            .col {
+                padding-left: 5px;
+            }
+        }
+        .more-story{
+            border-top: 1px solid #dadada;
+            max-height: 120px;
+            margin-top: 10px;
+            padding-top: 15px;
+        }
+        .opinion {
+            border-top: 1px solid #dadada;
+            max-height: 120px;
+            margin-top: 10px;
+            padding-top: 15px;
+            h4 > a:hover {
+                color: #f72210;
+                text-decoration: none;
+            }
+        }
+        .top-stories > .row > div[class^="col-"] {
+            min-width: 29%;
+        }
     }
+    
 }

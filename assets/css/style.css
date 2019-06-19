@@ -4,6 +4,14 @@ body {
   font-weight: 400;
 }
 
+body h3 {
+  font-size: 24px;
+}
+
+body h4 {
+  font-size: 17px;
+}
+
 body h2,
 body h3,
 body h4,
@@ -63,5 +71,64 @@ body .content {
 
 body .main.content {
   padding: 20px 30px 0 30px;
+}
+
+body .main.content img {
+  height: auto;
+  width: 100%;
+}
+
+body .main.content .block-title {
+  color: #818181;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 11px;
+}
+
+body .main.content .featured .latest-news:nth-child(2),
+body .main.content .featured .opinion:nth-child(2) {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+body .main.content .latest-news {
+  border-top: 1px solid #dadada;
+  max-height: 120px;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+body .main.content .latest-news h4 > a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+body .main.content .latest-news .col {
+  padding-left: 5px;
+}
+
+body .main.content .more-story {
+  border-top: 1px solid #dadada;
+  max-height: 120px;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+body .main.content .opinion {
+  border-top: 1px solid #dadada;
+  max-height: 120px;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+body .main.content .opinion h4 > a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+body .main.content .top-stories > .row > div[class^="col-"] {
+  min-width: 29%;
 }
 /*# sourceMappingURL=style.css.map */
