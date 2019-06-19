@@ -60,6 +60,9 @@ body {
     }
     .main.content {
         padding: 20px 30px 0 30px;
+        article {
+            margin: 10px 0;
+        }
         img {
             height: auto;
             width:100%;
@@ -69,6 +72,7 @@ body {
             font-family: $headFont;
             font-size: 16px;
             font-weight: 700;
+            margin-top: 25px;
             padding-bottom: 11px;
         }
         .featured .latest-news:nth-child(2),
@@ -86,6 +90,12 @@ body {
                 color: #f72210;
                 text-decoration: none;
             }
+            img {
+                height: 100%;
+                max-height: 100px;
+                max-width: 100%;
+                width: auto;
+            }
             .col {
                 padding-left: 5px;
             }
@@ -95,6 +105,63 @@ body {
             max-height: 120px;
             margin-top: 10px;
             padding-top: 15px;
+            img {
+                height: auto;
+                max-height: 100px;
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+        .news-letter {
+            border: 1px solid #e5e5e5;
+            background-color: #f4f5f6;
+            padding: 20px;
+            margin: 20px;
+            a {
+                color: #333;
+                font: 700 15px $headFont;
+                text-decoration: none;
+                p {
+                    margin: 0;
+                }
+            }
+            button {
+                background-color: #666666;
+                border: 0;
+                color: #fff;
+                font: 700 18px $headFont;
+                height:38px;
+                margin-bottom: 10px;
+            }
+            div {
+                margin-bottom: 5px;
+                div:nth-child(1) {
+                    background-color: #f72210;
+                    color: #fff;
+                    font: 15px $headFont;
+                    font-weight: 800;
+                    height: 29px;
+                    margin: 9px 10px 0 10px;
+                    padding: 6px 10px;
+                }
+                div:nth-child(2) {
+                    color: #333;
+                    font: 19px $headFont;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+        .on-img {
+            color: #f72210;
+            background-color: hsla(0, 0%, 100%, 0.774);
+            font-family: $headFont;
+            font-weight: 700;
+            padding: 10px 15px;
+            position: relative;
+            top: -25px;
+            text-transform: uppercase;
         }
         .opinion {
             border-top: 1px solid #dadada;
@@ -104,6 +171,24 @@ body {
             h4 > a:hover {
                 color: #f72210;
                 text-decoration: none;
+            }
+            img {
+                height: auto;
+                max-height: 100%;
+                max-width: 100%;
+                width: auto;
+            }
+        }
+        .sponsored {
+            border: 1px solid #dadada;
+            h3 {
+                padding: 0 15px;
+            }
+            p {
+                padding: 0 15px;
+            }
+            .on-img {
+                color: #3581f4;
             }
         }
         .top-stories > .row > div[class^="col-"] {
