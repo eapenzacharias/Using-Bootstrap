@@ -82,6 +82,18 @@ body .c-title {
   text-transform: uppercase;
 }
 
+body .cat.content .title {
+  border: 0;
+  border-top: 1px solid #dadada;
+  padding: 20px 0 10px 0;
+  text-align: left;
+}
+
+body .cat.content .title .c-title {
+  color: #f72210;
+  font: 700 22px "Roboto Condensed", sans-serif;
+}
+
 body .main.content {
   padding: 20px 30px 30px 30px;
 }
@@ -286,6 +298,15 @@ body .on-img {
   position: relative;
   top: -25px;
   text-transform: uppercase;
+}
+
+body .slideshow.content .on-img {
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
+  font-size: 20px;
+  height: 50px;
+  padding: 21px 30px;
+  top: -42px;
+  width: 80px;
 }
 
 body .title {
