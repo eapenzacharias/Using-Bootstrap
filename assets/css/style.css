@@ -30,6 +30,11 @@ body h4 > a:hover {
           text-decoration-color: #f72210;
 }
 
+body img {
+  height: auto;
+  width: 100%;
+}
+
 body header {
   margin-left: auto;
   margin-right: auto;
@@ -67,10 +72,18 @@ body header .top {
 body .content {
   background-color: #fff;
   max-width: 1310px;
+  padding-bottom: 30px;
+}
+
+body .c-title {
+  color: #333;
+  font: 19px "Roboto Condensed", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 body .main.content {
-  padding: 20px 30px 0 30px;
+  padding: 20px 30px 30px 30px;
 }
 
 body .main.content article {
@@ -166,31 +179,7 @@ body .main.content .news-letter div {
 }
 
 body .main.content .news-letter div div:nth-child(1) {
-  background-color: #f72210;
-  color: #fff;
-  font: 15px "Roboto Condensed", sans-serif;
-  font-weight: 800;
-  height: 29px;
   margin: 9px 10px 0 10px;
-  padding: 6px 10px;
-}
-
-body .main.content .news-letter div div:nth-child(2) {
-  color: #333;
-  font: 19px "Roboto Condensed", sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-body .main.content .on-img {
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.774);
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  padding: 10px 15px;
-  position: relative;
-  top: -25px;
-  text-transform: uppercase;
 }
 
 body .main.content .opinion {
@@ -230,5 +219,79 @@ body .main.content .sponsored .on-img {
 
 body .main.content .top-stories > .row > div[class^="col-"] {
   min-width: 29%;
+}
+
+body .mag.content button {
+  border: 0;
+  background-color: #f4f5f6;
+  color: #000;
+  font: 700 18px "Roboto Condensed", sans-serif;
+  height: 40px;
+  position: relative;
+  top: -19px;
+  width: 100%;
+}
+
+body .mag.content button:hover {
+  background-color: #dbdcdd;
+}
+
+body .mag.content .mag-element h4 {
+  font: 700 20px "Roboto Condensed", sans-serif;
+  margin: 15px 0 10px 0;
+}
+
+body .mag.content .mag-element img {
+  margin-bottom: 15px;
+  min-height: 250px;
+}
+
+body .mag.content .mag-element .cat {
+  font: 700 16px "Roboto Condensed", sans-serif;
+}
+
+body .mag.content .mag-element .cat a {
+  color: #f72210;
+}
+
+body .mag.content .mag-element .cat a:hover {
+  text-decoration: none;
+}
+
+body .mag.content .mag-element .mag-cat {
+  background-color: #f72210;
+  color: #fff;
+  font: 16px "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  padding: 4px 6px;
+  margin-right: 10px;
+}
+
+body .n-logo {
+  background-color: #f72210;
+  color: #fff;
+  font: 15px "Roboto Condensed", sans-serif;
+  font-weight: 800;
+  height: 29px;
+  margin-right: 10px;
+  padding: 6px 10px;
+}
+
+body .on-img {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.774);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  padding: 10px 15px;
+  position: relative;
+  top: -25px;
+  text-transform: uppercase;
+}
+
+body .title {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 12px 12px 12px;
+  margin: 0 auto 10px auto;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
