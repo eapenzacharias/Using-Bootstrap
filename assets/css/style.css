@@ -103,6 +103,43 @@ body .cat.content .title .c-title {
   font: 700 22px "Roboto Condensed", sans-serif;
 }
 
+body footer {
+  color: #666666;
+  font: 400 "Raleway", sans-serif;
+}
+
+body footer .row.top {
+  border-bottom: 1px solid #dadada;
+  border-top: 1px solid #dadada;
+  padding: 35px 0 15px 0;
+  text-transform: uppercase;
+}
+
+body footer .row.top svg {
+  fill: #f72210;
+  height: 30px;
+  width: auto;
+}
+
+body footer .row.top .social {
+  text-align: left;
+}
+
+body footer .row.top .social a {
+  color: #666666;
+  font-size: 26px;
+  margin: 15px 5px;
+}
+
+@media (min-width: 750px) {
+  body footer .row.top .social {
+    text-align: right;
+  }
+  body footer .row.top .social a {
+    margin: 0 5px;
+  }
+}
+
 body .main.content {
   padding: 20px 30px 30px 30px;
 }

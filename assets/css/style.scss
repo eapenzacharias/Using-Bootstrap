@@ -88,6 +88,37 @@ body {
             }
         }
     }
+    footer {
+        color: #666666;
+        font: 400 $bodyFont;
+        .row.top {
+            border-bottom: 1px solid #dadada;
+            border-top: 1px solid #dadada;
+            padding: 35px 0 15px 0;
+            text-transform: uppercase;
+            svg {
+                fill: #f72210;
+                height: 30px;
+                width: auto;
+            }
+            .social {
+                text-align: left;
+                a {
+                    color: #666666;
+                    font-size: 26px;
+                    margin: 15px 5px;
+                }
+            }
+            @media (min-width: 750px) {
+                .social {
+                    text-align: right;
+                    a {
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
     .main.content {
         padding: 20px 30px 30px 30px;
         article {
