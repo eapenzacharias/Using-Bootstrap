@@ -82,6 +82,15 @@ body .c-title {
   text-transform: uppercase;
 }
 
+body .cat.content .sub.col-md-12 figure:nth-last-child(1) {
+  border-bottom: 0;
+}
+
+body .cat.content .sub.row {
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 10px;
+}
+
 body .cat.content .title {
   border: 0;
   border-top: 1px solid #dadada;
