@@ -42,6 +42,8 @@ body header {
 
 body header nav {
   background-color: #fff;
+  color: #818181;
+  font: 400 16px "Raleway", sans-serif;
 }
 
 body header nav .navbar-nav {
@@ -65,8 +67,51 @@ body header nav .navbar-nav li:nth-child(1) {
   border: 0;
 }
 
-body header .top {
+body header .navbar::before {
+  width: 66px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
   background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+
+body header .top.row {
+  background-color: #f72210;
+  background-image: url("../imgs/newsweek-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  color: #fff;
+  height: 95px;
+  margin: 0;
+  padding: 60px 10px 15px 10px;
+  width: 100%;
+}
+
+body header .top.row .date {
+  font: 400 16px "Roboto Condensed", sans-serif;
+}
+
+body header .top.row .button {
+  font: 700 18px "Roboto Condensed", sans-serif;
+}
+
+body header .top.row .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body header .top.row .button button {
+  background-color: #fff;
+  border: none;
+  color: #f72210;
+  font: 700 18px "Roboto Condensed", sans-serif;
+  padding: 6px 12px;
+  margin: -8px 0 0 15px;
 }
 
 body .content {

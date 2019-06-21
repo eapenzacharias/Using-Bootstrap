@@ -36,6 +36,8 @@ body {
         margin-right: auto;
         nav {
             background-color: #fff;
+            color: #818181;
+            font: 400 16px $bodyFont;
             .navbar-nav {
                 height: 24px;
                 .nav-item {
@@ -54,8 +56,46 @@ body {
                 }
             }
         }
-        .top {
+        .navbar::before {
+            width: 66px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: "";
+            display: block;
+            background-color: #f72210;
+            border-left: 12px solid #fff;
+            border-top: 13px solid #f72210;
+        }
+        .top.row {
             background-color: $mainColor;
+            background-image: url("../imgs/newsweek-logo.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 400px auto;
+            color: #fff;
+            height: 95px;
+            margin: 0;
+            padding: 60px 10px 15px 10px;
+            width: 100%;
+            .date {
+                font: 400 16px $headFont;
+            }
+            .button {
+                font: 700 18px $headFont;
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                button {
+                    background-color: #fff;
+                    border: none;
+                    color: #f72210;
+                    font: 700 18px $headFont;
+                    padding: 6px 12px;
+                    margin: -8px 0 0 15px;
+                }
+            }
         }
     }
     .content {
