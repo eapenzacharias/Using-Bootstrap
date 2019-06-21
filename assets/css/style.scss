@@ -91,6 +91,32 @@ body {
     footer {
         color: #666666;
         font: 400 $bodyFont;
+        .row.bottom {
+            font: 400 14px $bodyFont;
+            margin: 10px 0;
+            .nav {
+                margin-left: -22px;
+                li > a {
+                    border-right: 1px solid #dadada;
+                    color: #666;
+                    line-height: 1.7;
+                    padding: 0 13px;
+                    text-decoration: none;
+                }
+                li > a:hover {
+                    color: #000;
+                }
+                li:nth-last-child(1) >a {
+                    border: 0;
+                }
+            }
+            span {
+                font-weight: 800;
+                line-height: 1.7;
+                margin: 0 20px 0 7px;
+                text-align: right;
+            }
+        }
         .row.top {
             border-bottom: 1px solid #dadada;
             border-top: 1px solid #dadada;
